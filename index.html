@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cherry Merry</title>
+</head>
+<body>
+    <div class="bg">
+        <h1>Cherry Merry</h1><br>
+       <h3> Welcome to our shop.</h3>
+        
+    </div>
+    <script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "3a3123f3-32fe-4441-bb31-6eab314d5081", // The ID of this integration.
+      region: "eu-gb", // The region your integration is hosted in.
+      serviceInstanceID: "6ea95331-758c-464d-b073-ee62f51e030f", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js"
+    document.head.appendChild(t);
+  });
+</script>
+    
+</body>
+</html>
